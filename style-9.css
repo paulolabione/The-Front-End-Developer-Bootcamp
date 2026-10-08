@@ -1,0 +1,39 @@
+h1 {
+width: fit-content;
+margin: 0 auto;
+background-color: lightseagreen;
+padding: 5px 10px;
+border-radius: 10px;
+border: 3px solid black;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+ }
+
+ /* 
+
+div {
+  background-image: linear-gradient(
+    rgba(156, 522, 154, 0.5), 
+    rgba(445, 555, 225, 0.5)
+  ),
+  url('images/Bad-Seller.jpg');
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+p {
+  color: greenyellow !important;
+  color: hotpink;
+} */
+
+div {
+  width: 50px;
+  height: 50px;
+  background-color: cyan;
+  transition: 0.5s;
+}
+
+div:hover {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}

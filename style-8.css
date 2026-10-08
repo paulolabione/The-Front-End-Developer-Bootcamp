@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  width: fit-content;
+  margin: 0 auto;
+  background-color: lightseagreen;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: solid 3px;
+}
+
+.group { 
+  /* display: inline-flex; */
+  /* display: flex; */
+  /* display: block; */
+  /* display: none; */
+  background-color: cyan;
+}
+
+.head {
+  position: relative;
+}
+
+.head .third-div {
+  position: absolute;
+  bottom: 500px;  /* The bottom is ignored */
+  top: 200px;  /* Top takes precedent */
+  left: 50px; 
+  right: 50px;
+}
+
+.head .four-div {
+  position: fixed;
+}
+
+.head .second-div {
+  position: sticky;
+  top: 0;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 55px;
+  /* z-index: -1; */
+}
+
+h2 {
+  /* position: absolute; */
+  /* top: 150px; */
+  /* z-index: 0; */
+}
+
+.overflow {
+  width: 300px;
+  height: 400px;
+  background-color: forestgreen;
+  /* overflow: hidden; */
+  /* overflow: scroll; */
+  /* overflow: auto; */
+  overflow: visible;  /* Default value */
+}
+
+.only .float1, .float2 {
+  background-color:  pink;
+}
+
+.only .float1 {
+  float: left;
+  background-color: lightseagreen;
+}
+
+.only .float2 {
+  float: right;
+  background-color: cyan;
+}
+/* 
+div ul li:first-child {
+  background-color: yellow;
+}
+
+div ul li:nth-child(2) {
+  background-color: green;
+}
+
+div ul li:nth-child(3) {
+  background-color: blue;
+}
+
+div ul li:nth-child(4) {
+  background-color: orange;
+}
+
+div ul li:nth-child(5) {
+  background-color: lightblue;
+}
+
+div ul li:last-child {
+  background-color: grey;
+} */
+/* 
+div ul li:first-child {
+  color: green;
+}
+
+div ul li:nth-child(2) {
+  color: red;
+}
+
+div:empty {
+  border: 3px solid black;
+}
+
+.border {
+  height: 30px;
+} */
+
+h3 {
+  margin: 30px 0 0 30px;
+}
+
+h3::before {
+  content: 'Before ';
+  color: green;
+}
+
+h3::after {
+  content: ' After ';
+  color: red;
+}
+
+ul, ol {
+  padding-left: 20px;
+}
+
+ol ::marker {
+  color: blue;
+}
+
+input::placeholder {
+  color: lightcoral;
+  font-size: 20px;
+}

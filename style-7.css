@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  width: fit-content;
+  margin: 0 auto 20px auto;
+  background-color: lawngreen;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 3px solid black;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.para1 {
+  text-align: left;
+  text-decoration: underline;
+  text-transform: uppercase;
+  text-indent: 10px;
+  font-family: roboto;
+}
+
+.para2 {
+  text-align: right;
+  text-decoration: line-through;
+  text-transform: lowercase;
+  letter-spacing: 10px;
+  font-family: Arial;
+}
+
+.para3 {
+  text-align: center;
+  text-decoration: line-through wavy red;
+  text-transform: capitalize;
+  word-spacing: 20px;
+  font-family: serif;
+}
+
+.para4 {
+  width: 200px;
+  text-align: justify;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fa-house {
+  width: 500px;
+  display: inline-block;
+  font-size: 100px;
+  background-color: lightblue;
+  border: 3px solid red;
+}

@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  width: fit-content;
+  margin: 20px auto;
+  background-color: lightseagreen;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* .main {
+  display: grid;
+  grid-template-rows: 200px 200px 200px;
+  grid-template-columns: 200px 200px 200px;
+  gap: 10px 20px;
+  margin-left: 200px;
+  justify-items: center;
+  align-items: center;
+} */
+
+.main {
+  /* width: 100%; */
+  flex-direction: row-reverse;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  flex-flow: wrap;
+}
+
+.main > div:nth-child(odd) {
+  background-color: green;
+  padding: 30px;
+  /* align-self: start; */
+  /* justify-self: center; */
+}
+
+.main > div:nth-child(even) {
+  background-color: red;
+  padding: 30px;
+  /* align-self: end; */
+  /* justify-self: center; */
+}
